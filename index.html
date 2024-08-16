@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Papper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <div class="container" id="container">
+    
+      <h1>Rock Paper Scissor</h1>
+    
+    
+      <div class ="btn">
+          <!-- Create all three playing buttons here -->
+          
+            
+              <button class="rps-btn" onclick="
+                Play('rock')
+
+                "><img src="images/rock.png" alt="" title="Rock"></button>
+            
+
+
+            
+              <button class="rps-btn" onclick="
+                Play('paper')"
+              ><img src="images/paper.png" alt="" title="Paper"></button>
+            
+
+
+            
+              <button class="rps-btn" onclick="
+                Play('scissors')
+                "
+                ><img src="images/scissors.png" alt="" title="Scissor"></button>
+          
+          
+      </div>
+
+      <p id="your-pick">
+        You pick:
+      </p>
+
+      <p id="computer-pick">
+        Computer pick:
+      </p>
+
+
+      <p id="scr">
+          <!-- Show the scores here -->
+          Score:
+      </p>
+
+      <p id="total-outcome">
+        Your wins 0, Computer wins 0, Ties 0
+      </p>
+
+      <!-- <button type="button" class="rst-btn" onclick="resetall()">
+        Reset
+      </button> -->
+
+  </div>
+
+
+  
+</body>
+</html>
