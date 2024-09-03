@@ -87,24 +87,26 @@ function Computer(){
 }
 
 function resetall(){
-    let score = {
-        Wins: 0,
-        Losses: 0,
-        Ties: 0
-    };
+    // let score = {
+    //     Wins: 0,
+    //     Losses: 0,
+    //     Ties: 0
+    // };
 
-    let playerMoveDisplay = document.getElementById("your-pick");
-    let computerMoveDisplay = document.getElementById("computer-pick");
-    let resultDisplay = document.getElementById("scr");
-    let totalOutcomeDisplay = document.getElementById("total-outcome");
+    // let playerMoveDisplay = document.getElementById("your-pick");
+    // let computerMoveDisplay = document.getElementById("computer-pick");
+    // let resultDisplay = document.getElementById("scr");
+    // let totalOutcomeDisplay = document.getElementById("total-outcome");
 
-    playerMoveDisplay.innerHTML = "Your pick:";
-    computerMoveDisplay.innerHTML = "Computer pick:";
-    resultDisplay.innerHTML = "Score:";
+    // playerMoveDisplay.innerHTML = "Your pick:";
+    // computerMoveDisplay.innerHTML = "Computer pick:";
+    // resultDisplay.innerHTML = "Score:";
     
-    totalOutcomeDisplay.innerHTML = `Your wins ${score.Wins}, Computer wins ${score.Losses}, Ties ${score.Ties}`;
+    // totalOutcomeDisplay.innerHTML = `Your wins ${score.Wins}, Computer wins ${score.Losses}, Ties ${score.Ties}`;
     
-    return score;
+    // return score;
+
+    location.reload();
     
 }
 
